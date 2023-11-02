@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\source\\repos\\StringLession\\StringLession\\StringLession.csproj": {}
+    "D:\\C-ITIS-2ndYear\\StringLession\\StringLession\\StringLession.csproj": {}
   },
   "projects": {
-    "D:\\source\\repos\\StringLession\\MyTemplate\\MyTemplate.csproj": {
+    "D:\\C-ITIS-2ndYear\\StringLession\\MyTemplate\\MyTemplate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\repos\\StringLession\\MyTemplate\\MyTemplate.csproj",
+        "projectUniqueName": "D:\\C-ITIS-2ndYear\\StringLession\\MyTemplate\\MyTemplate.csproj",
         "projectName": "MyTemplate",
-        "projectPath": "D:\\source\\repos\\StringLession\\MyTemplate\\MyTemplate.csproj",
+        "projectPath": "D:\\C-ITIS-2ndYear\\StringLession\\MyTemplate\\MyTemplate.csproj",
         "packagesPath": "C:\\Users\\Kamil\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\repos\\StringLession\\MyTemplate\\obj\\",
+        "outputPath": "D:\\C-ITIS-2ndYear\\StringLession\\MyTemplate\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kamil\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "D:\\source\\repos\\StringLession\\StringLession\\StringLession.csproj": {
+    "D:\\C-ITIS-2ndYear\\StringLession\\StringLession\\StringLession.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\repos\\StringLession\\StringLession\\StringLession.csproj",
+        "projectUniqueName": "D:\\C-ITIS-2ndYear\\StringLession\\StringLession\\StringLession.csproj",
         "projectName": "StringLession",
-        "projectPath": "D:\\source\\repos\\StringLession\\StringLession\\StringLession.csproj",
+        "projectPath": "D:\\C-ITIS-2ndYear\\StringLession\\StringLession\\StringLession.csproj",
         "packagesPath": "C:\\Users\\Kamil\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\repos\\StringLession\\StringLession\\obj\\",
+        "outputPath": "D:\\C-ITIS-2ndYear\\StringLession\\StringLession\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kamil\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\source\\repos\\StringLession\\MyTemplate\\MyTemplate.csproj": {
-                "projectPath": "D:\\source\\repos\\StringLession\\MyTemplate\\MyTemplate.csproj"
+              "D:\\C-ITIS-2ndYear\\StringLession\\MyTemplate\\MyTemplate.csproj": {
+                "projectPath": "D:\\C-ITIS-2ndYear\\StringLession\\MyTemplate\\MyTemplate.csproj"
               }
             }
           }

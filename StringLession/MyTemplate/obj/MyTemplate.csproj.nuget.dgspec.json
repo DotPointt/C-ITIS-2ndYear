@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\source\\repos\\StringLession\\MyTemplate\\MyTemplate.csproj": {}
+    "D:\\C-ITIS-2ndYear\\StringLession\\MyTemplate\\MyTemplate.csproj": {}
   },
   "projects": {
-    "D:\\source\\repos\\StringLession\\MyTemplate\\MyTemplate.csproj": {
+    "D:\\C-ITIS-2ndYear\\StringLession\\MyTemplate\\MyTemplate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\repos\\StringLession\\MyTemplate\\MyTemplate.csproj",
+        "projectUniqueName": "D:\\C-ITIS-2ndYear\\StringLession\\MyTemplate\\MyTemplate.csproj",
         "projectName": "MyTemplate",
-        "projectPath": "D:\\source\\repos\\StringLession\\MyTemplate\\MyTemplate.csproj",
+        "projectPath": "D:\\C-ITIS-2ndYear\\StringLession\\MyTemplate\\MyTemplate.csproj",
         "packagesPath": "C:\\Users\\Kamil\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\repos\\StringLession\\MyTemplate\\obj\\",
+        "outputPath": "D:\\C-ITIS-2ndYear\\StringLession\\MyTemplate\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kamil\\AppData\\Roaming\\NuGet\\NuGet.Config",
