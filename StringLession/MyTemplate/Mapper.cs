@@ -44,12 +44,7 @@ namespace MyTemplate
             return values.Aggregate(template, (current, pair) => current.Replace("@{" + pair.Key + "}", pair.Value?.ToString() ?? ""));
         }
             
-        //3
-        //"Здравсвуйте, @{name}
-        //@if(temperature >37)"
-        //@then {Выздоравливайте}
-        //@else {Прогульщица}
-        //string(object obj)
+
         public static string Method3(object? obj)
             {
                 var templateString = "Здравствуйте, @{if(temperature >= 37)} @then{Выздоравливайте} @else{Прогульщица}";
