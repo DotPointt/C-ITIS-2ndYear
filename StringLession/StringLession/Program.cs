@@ -14,29 +14,14 @@ class Program
         //    address = "Fuchika 30"
         //})) ;
 
+        var stud = new Student(){
+            name = "Venera",
+            address = "Kadirovo"
+        };
+        
+        //System.Console.WriteLine(Mapper.Method2(stud));
         Mapper.Method3(new Student());
 
-    }
-
-    //"Здравствуйте @{name}, вы отчислены"
-    //@name =  Лейсан
-    //student
-    //    F
-    //    I
-    //    O
-    //    age
-    //    temperature
-    string GetMessage(string name)
-    {
-        return "Здравствуйте, @{name}, вы отчислены";
-    }
-
-    //2
-    //"Здравствуйте, @{name}. Вы прописаны по адресу @{address}."
-    //
-    string method(object obj)
-    {
-        return "Здравствуйте, @{name}. Вы прописаны по адресу @{address}.";
     }
 
 
@@ -46,7 +31,7 @@ class Program
     //@then {Выздоравливайте}
     //@else {Прогульщица}
     //string(object obj)
-    //
+    
 
 
     //4)
