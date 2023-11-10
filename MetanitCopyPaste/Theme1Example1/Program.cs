@@ -11,7 +11,7 @@ namespace AdoNetConsoleApp
             // получаем строку подключения
             string connectionString = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
             Console.WriteLine(connectionString);
-
+            
             Console.Read();
         }
     }
