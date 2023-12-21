@@ -1,0 +1,25 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:MyGame.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="MyGame.Views.MainView"
+             x:DataType="vm:MainViewModel">
+  <Design.DataContext>
+    <!-- This only sets the DataContext for the previewer in an IDE,
+         to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+    <vm:MainViewModel />
+  </Design.DataContext>
+
+
+
+<Grid ShowGridLines="True" Margin="5" ColumnDefinitions="0.4*, 0.2*, 0.4*" RowDefinitions="Auto, Auto">  
+		 <Border Name="GreetingBackground" Margin="40"  CornerRadius="10" Background="LightYellow" Grid.ColumnSpan="3">
+			 <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" FontWeight="DemiBold" FontStyle="Italic" FontSize="24"></TextBlock>
+	    </Border>
+		<Button Name="StartButton" Grid.Row="1" Grid.Column="1"  Click="ButtonClicked" HorizontalAlignment="Center" FontSize="24" FontWeight="Bold"> Начать</Button>
+</Grid>
+
+
+</UserControl>
