@@ -1,4 +1,5 @@
-﻿using System.Net.Sockets;
+﻿using Newtonsoft.Json;
+using System.Net.Sockets;
 
 string host = "127.0.0.1";
 int port = 8888;
@@ -53,9 +54,11 @@ async Task ReceiveMessageAsync(StreamReader reader)
 
             // считываем ответ в виде строки
             string? message = await reader.ReadLineAsync();
+            var clients = JsonConvert.DeserializeObject(message);
             // если пустой ответ, ничего не выводим на консоль
             if (string.IsNullOrEmpty(message)) continue;
-            Print(message);//вывод сообщения
+            //Print(message );//вывод сообщения
+            Console.WriteLine(clients);
         }
         catch
         {

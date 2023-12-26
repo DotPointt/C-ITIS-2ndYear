@@ -1,4 +1,5 @@
-﻿using System.Net;
+﻿using Newtonsoft.Json;
+using System.Net;
 using System.Net.Sockets;
 using System.Reflection;
 using System.Text.Json;
@@ -51,14 +52,12 @@ class ServerObject
     protected internal async Task BroadcastMessageAsync(string message, string id)
     {
 
-        var usersToJson = JsonSerializer.Serialize<List<ClientObject>>(clients.Select( x => x).ToList());
+        var usersToJson = JsonConvert.SerializeObject(clients.Select( x => x).ToList());
         foreach (var client in clients)
             {
                 await client.Writer.WriteLineAsync($"count = {clients.Count}"); //передача данных
-                foreach (var clientObject in clients)
-                {
-                    await client.Writer.WriteLineAsync(usersToJson);
-                }
+                await client.Writer.WriteLineAsync(usersToJson);
+                
                 await client.Writer.FlushAsync();
             }
 
@@ -85,6 +84,7 @@ class ClientObject
     protected internal StreamWriter Writer { get; }
     protected internal StreamReader Reader { get; }
 
+    [JsonProperty]
     protected internal string? userName;
 
     TcpClient client;

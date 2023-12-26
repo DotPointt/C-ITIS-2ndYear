@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyGame.Models
 {
-    internal class Client
+    internal class Player
     {
 
     }
